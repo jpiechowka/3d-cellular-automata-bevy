@@ -49,7 +49,7 @@ On Windows you need to follow this pattern: https://superuser.com/a/1049433
 
 ## Gallery
 
-TODO: Provide some pictures or video of final app
+TODO: Provide some pictures or video of the final app
 
 ## License
 
