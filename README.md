@@ -2,6 +2,10 @@
 
 3D Cellular Automata in Bevy and Rust
 
+## Features
+
+TODO: Fill this list
+
 ## Learning resources
 
 * https://softologyblog.wordpress.com/2019/12/28/3d-cellular-automata-3/
@@ -42,6 +46,10 @@ RUSTFLAGS="-C target-cpu=native" cargo build --release
 ```
 
 On Windows you need to follow this pattern: https://superuser.com/a/1049433
+
+## Gallery
+
+TODO: Provide some pictures or video of final app
 
 ## License
 
