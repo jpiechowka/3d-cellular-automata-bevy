@@ -4,6 +4,7 @@
 
 ## Learning resources
 * https://softologyblog.wordpress.com/2019/12/28/3d-cellular-automata-3/
+* https://github.com/ManevilleF/bevy_life
 * https://youtu.be/63qlEpO73C4
 * https://youtu.be/jkHqrkcEHRc
 * https://bevyengine.org/learn/book/getting-started/
