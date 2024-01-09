@@ -1,6 +1,6 @@
 # 3D Cellular Automata
 
-3D Cellular Automata in Bevy and Rust
+3D Cellular Automata in Rust and Bevy
 
 ## Features
 

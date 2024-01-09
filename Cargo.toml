@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Janusz Piechówka"]
 repository = "https://github.com/jpiechowka/3d-cellular-automata-bevy"
 license = "MIT OR Apache-2.0"
-description = "3D Cellular Automata in Bevy and Rust"
+description = "3D Cellular Automata in Rust and Bevy"
 readme = "README.md"
 
 [[bin]]
