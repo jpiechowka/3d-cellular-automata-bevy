@@ -20,7 +20,9 @@ TODO: Fill this list
 
 You can run the debug build using `debug` feature flag with:
 ```
-run --package cellular-automata --bin 3d-cellular-automata-bevy --features debug
+git clone https://github.com/jpiechowka/3d-cellular-automata-bevy.git
+cd 3d-cellular-automata-bevy
+cargo run --package cellular-automata --bin 3d-cellular-automata-bevy --features debug
 ```
 
 Logging can be configured using the `RUST_LOG` environment variable (https://bevy-cheatbook.github.io/fundamentals/log.html#environment-variable)
