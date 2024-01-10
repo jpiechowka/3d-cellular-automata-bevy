@@ -16,6 +16,15 @@ TODO: Fill this list
 * https://bevy-cheatbook.github.io/
 * https://nnethercote.github.io/perf-book/introduction.html
 
+## Running the debug build
+
+You can run the debug build using `debug` feature flag with:
+```
+run --package cellular-automata --bin 3d-cellular-automata-bevy --features debug
+```
+
+Logging can be configured using the `RUST_LOG` environment variable (https://bevy-cheatbook.github.io/fundamentals/log.html#environment-variable)
+
 ## Building
 
 Install Rust (https://www.rust-lang.org/tools/install), then run the commands below:
