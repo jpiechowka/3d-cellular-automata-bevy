@@ -1,12 +1,29 @@
 # 3D Cellular Automata
 
-3D Cellular Automata in Rust and Bevy
+3D Cellular Automata in Rust and Bevy 0.12
+
+<!-- TOC -->
+* [3D Cellular Automata](#3d-cellular-automata)
+  * [Features](#features)
+  * [Learning resources](#learning-resources)
+  * [Running the debug build](#running-the-debug-build)
+  * [Building](#building)
+    * [Using `RUSTFLAGS` env variable](#using-rustflags-env-variable)
+  * [Gallery](#gallery)
+  * [License](#license)
+  * [Contributions](#contributions)
+<!-- TOC -->
 
 ## Features
 
 TODO: Fill this list
 
-* Assets and icons created using `Aseprite` (https://github.com/aseprite/aseprite). To build from source see this guide: https://gist.github.com/luciopaiva/6a1f870f932a5f54011cc869c4d558a8
+* Assets and icons created using `Aseprite` (https://github.com/aseprite/aseprite). To build from source see this
+  guide: https://gist.github.com/luciopaiva/6a1f870f932a5f54011cc869c4d558a8
+* Additional debug console logging and `bevy-inspector-egui` can be enabled using the `debug` feature
+  (see: [Running the debug build section](#running-the-debug-build))
+* Played a little bit with [JetBrains AI assistant](https://www.jetbrains.com/ai/) for documentation, code generation
+  and commit messages completion
 
 ## Learning resources
 
@@ -21,13 +38,15 @@ TODO: Fill this list
 ## Running the debug build
 
 You can run the debug build using `debug` feature flag with:
+
 ```
 git clone https://github.com/jpiechowka/3d-cellular-automata-bevy.git
 cd 3d-cellular-automata-bevy
 cargo run --package cellular-automata --bin 3d-cellular-automata-bevy --features debug
 ```
 
-Logging can be configured using the `RUST_LOG` environment variable (https://bevy-cheatbook.github.io/fundamentals/log.html#environment-variable)
+Logging can be configured using the `RUST_LOG` environment
+variable (https://bevy-cheatbook.github.io/fundamentals/log.html#environment-variable)
 
 ## Building
 
@@ -39,7 +58,7 @@ cd 3d-cellular-automata-bevy
 cargo build --release
 ```
 
-### Using RUSTFLAGS env variable
+### Using `RUSTFLAGS` env variable
 
 If you do not care that much about the compatibility of your binary on older (or other types of) processors, you can
 tell the compiler to generate the newest (and potentially fastest) instructions specific to a certain CPU architecture
@@ -66,7 +85,8 @@ TODO: Provide some pictures or video of the final app
 
 ## License
 
-Rust ray tracer is free, open source and permissively licensed! Except where noted (below and/or in individual files),
+3D Cellular Automata is free, open source and permissively licensed! Except where noted (below and/or in individual
+files),
 all code in this repository is dual-licensed under either:
 
 * MIT License (`LICENSE-MIT` file or http://opensource.org/licenses/MIT)
